@@ -14,10 +14,15 @@
   <body>
     <h2>Javascript In Body</h2>
     <p id="demo"></p>
-    <button type="button" onclick="myFunction()">Change the Text</button>
+    <button type="button" onclick="myFunction()" ondblclick="myFunction2()">
+      Change the Text
+    </button>
     <script src="where.js"></script>
     <script>
       document.getElementById("demo").innerHTML = "My First Javascript";
+      function myFunction2() {
+        document.getElementById("demo").innerHTML = "Our Paragraph Changed";
+      }
     </script>
   </body>
 </html>
