@@ -1,3 +1,3 @@
 function myFunc() {
-    document.getElementById('demo').innerHTML="Use the external script file"
+  document.getElementById("demo").innerHTML = "Javascript calculation "+ ( 5 + 6);
 }
